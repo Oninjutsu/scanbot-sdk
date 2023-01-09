@@ -1,0 +1,87 @@
+{
+  "name": "cordova-plugin-scanbot-sdk",
+  "title": "Scanbot Document and Barcode Scanner SDK for Cordova",
+  "version": "4.16.0",
+  "description": "Cordova Plugin for the Scanbot Document and Barcode Scanner SDK",
+  "cordova": {
+    "id": "cordova-plugin-scanbot-sdk",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "scripts": {
+    "postinstall": "node download-ios-framework.js",
+    "prepack": "python3 compare-versions.py"
+  },
+  "types": "index.d.ts",
+  "main": "www/ScanbotSdk.js",
+  "keywords": [
+    "cordova",
+    "android",
+    "app",
+    "barcode",
+    "camera",
+    "cropping",
+    "document detection",
+    "document scanner",
+    "edge detection",
+    "filter",
+    "image filter",
+    "image processing",
+    "ionic",
+    "ios",
+    "mobile",
+    "mobile scanner",
+    "mrz",
+    "machine-readable zone",
+    "ocr",
+    "optical character recognition",
+    "pdf creation",
+    "qr qrcode",
+    "recognition",
+    "scan",
+    "scanning",
+    "scanner",
+    "scanbot",
+    "scanbot-sdk",
+    "scanner-sdk",
+    "scanning-sdk",
+    "sdk",
+    "tiff",
+    "jpg",
+    "1d-barcode",
+    "2d-barcode",
+    "ean",
+    "upc",
+    "data",
+    "matrix",
+    "pdf-417"
+  ],
+  "author": "Scanbot / doo GmbH",
+  "license": "Commercial",
+  "readmeFilename": "README.md",
+  "homepage": "https://scanbot.io",
+  "contributors": [
+    {
+      "name": "Scanbot",
+      "email": "sdk@scanbot.io",
+      "url": "https://scanbot.io"
+    }
+  ],
+  "requires": {
+    "request": "2.88.2",
+    "adm-zip": "0.4.16",
+    "path": "0.12.7"
+  },
+  "dependencies": {
+    "adm-zip": "0.5.5",
+    "path": "0.12.7",
+    "request": "2.88.2"
+  },
+  "devDependencies": {
+    "adm-zip": "0.5.5",
+    "path": "0.12.7",
+    "request": "2.88.2"
+  }
+}
