@@ -1,10 +1,13 @@
-<platform name="android">
-  <resource-file src="scanbot-sdk-app-resources/osd.traineddata" target="app/src/main/assets/ocr_blobs/osd.traineddata" />
-  <resource-file src="scanbot-sdk-app-resources/eng.traineddata" target="app/src/main/assets/ocr_blobs/eng.traineddata" />
-</platform>
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.outsystemsenterprise.tdgdev.OCRNPD" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <platform name="android">
+    <resource-file src="scanbot-sdk-app-resources/osd.traineddata" target="app/src/main/assets/ocr_blobs/osd.traineddata" />
+    <resource-file src="scanbot-sdk-app-resources/eng.traineddata" target="app/src/main/assets/ocr_blobs/eng.traineddata" />
+  </platform>
 
-<platform name="ios">
-  <resource-file src="scanbot-sdk-app-resources/ScanbotSDKOCRData.bundle" target="ScanbotSDKOCRData.bundle" />
-  <resource-file src="scanbot-sdk-app-resources/osd.traineddata" target="ScanbotSDKOCRData.bundle/osd.traineddata" />
-  <resource-file src="scanbot-sdk-app-resources/eng.traineddata" target="ScanbotSDKOCRData.bundle/eng.traineddata" />
-</platform>
+  <platform name="ios">
+    <resource-file src="scanbot-sdk-app-resources/ScanbotSDKOCRData.bundle" target="ScanbotSDKOCRData.bundle" />
+    <resource-file src="scanbot-sdk-app-resources/osd.traineddata" target="ScanbotSDKOCRData.bundle/osd.traineddata" />
+    <resource-file src="scanbot-sdk-app-resources/eng.traineddata" target="ScanbotSDKOCRData.bundle/eng.traineddata" />
+  </platform>
+</widget>
